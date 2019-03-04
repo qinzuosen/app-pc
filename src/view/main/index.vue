@@ -10,7 +10,7 @@
 <script>
 export default {
     data: ()=>({
-        
+        date: 1
     }),
     created() {
         // 拿到vuex的值
