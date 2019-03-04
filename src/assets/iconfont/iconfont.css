@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('./iconfont.ttf'); /* IE9*/
+  src: url('./iconfont.eot'); /* IE9*/
+  src: url('./iconfont.ttf') format('embedded-opentype'), /* IE6-IE8 */
+  url('./iconfont.ttf') format('woff'),
+  url('./iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./iconfont.ttf') format('svg'); /* iOS 4.1- */
+  src: url('./iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('./iconfont.eot') format('woff'),
+  url('./iconfont.eot') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./iconfont.eot') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_add:before {
+  content: "\eb8f";
+}
+
+.icon-icon_addmessage:before {
+  content: "\eb90";
+}
+
+.icon-icon_addresslist:before {
+  content: "\eb91";
+}
+
